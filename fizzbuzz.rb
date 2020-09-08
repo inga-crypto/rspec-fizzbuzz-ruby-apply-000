@@ -8,7 +8,7 @@ def fizzbuzz(num)
     num % 5 == 0
      return "Buzz"
    elsif
-   !(num % 3 == 0 || num % 5 == 0) && (num % 3 == 0 && num % 5 == 0)
+   !(num % 3 == 0 || num % 5 == 0) && (num % 3 == 0 && num % 5 == 0) 
    return "FizzBuzz"
    fizz_15
   (fizz_15).to eq("FizzBuzz")
