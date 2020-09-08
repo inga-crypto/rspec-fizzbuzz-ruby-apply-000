@@ -2,16 +2,16 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
- if num % 3 == 0
-   return "Fizz"
+ if (num % 3 == 0 && num % 5 == 0)
+   return "FizzBuzz"
+   #fizz_15
+  #(fizz_15).to eq("FizzBuzz")
+  elsif 
+  num % 3 == 0
+  return "Fizz"
    elsif
     num % 5 == 0
      return "Buzz"
-   elsif
-   !(num % 3 == 0 || num % 5 == 0) && (num % 3 == 0 && num % 5 == 0)
-   return "FizzBuzz"
-   fizz_15
-  (fizz_15).to eq("FizzBuzz")
  else
   return nil
   end
